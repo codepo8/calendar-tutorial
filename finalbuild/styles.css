@@ -1,0 +1,43 @@
+* { 
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: helvetica,arial,sans-serif;
+}
+footer, section, header {
+  display: block;
+}
+article {
+  z-index: 10;
+  position: absolute;
+  top: -400px;
+  width: 700px;
+  background: #d3caff;
+  -moz-transition: top 1s;
+  -webkit-transition: top 1s;
+  -ms-transition: top 1s;
+  -o-transition: top 1s;
+  transition: top 1s;
+}
+article.show {
+  top: 200px;
+}
+
+section {
+  width: 700px;
+  height: 800px;
+  position: relative;
+  background: #b4d455;
+}
+li {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #c0ffee;
+  list-style: none;
+}
+li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
