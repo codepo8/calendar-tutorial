@@ -35,6 +35,7 @@ li {
   height: 40px;
   background: #c0ffee;
   list-style: none;
+  box-shadow: 0 0pt 5 2px rgba(255, 255, 255, 0.5);
 }
 li a {
   display: block;
